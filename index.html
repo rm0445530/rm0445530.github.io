@@ -1,15 +1,25 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>This is a test</title>
-  <meta name="description" content="HTML5 Template">
-
-</head>
-
-<body>
-<p>Sample text</p>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+  <!--
+  Author: 	Ryan Miletello
+  Date:		12/6/19
+  -->
+    <meta charset="utf-8">
+    <title>The Great Race</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="scripts.js"></script>
+  </head>
+  <body>
+	<h1 id="Top">The Great Race</h1>
+	<div id="lightContainer">
+		<img src="CarGreen.png" alt="greenCarWins" id="greenCarWinner" class="car" onclick="again()">
+		<img src="CarBlue.png" alt="blueCarWins" id="blueCarWinner" class="car" onclick="again()">
+		<img src="redLight.png" alt="light" id="light" class="light" onclick="startRace()">
+	</div>
+	<div id="racetrack">	
+		<img src="CarGreen.png" alt="greenCar" id="greenCar" class="car">
+		<img src="CarBlue.png" alt="blueCar" id="blueCar" class="car">
+	</div>
+  </body>
 </html>

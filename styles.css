@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/*
+   Ryan Miletello
+   12/6/19
+
+*/
+
+h1{
+	text-align:center;
+}
+.light{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#racetrack{
+	width: 100%;
+	background: url('road.png');
+}
+.car {
+	display: block;
+	position: relative;
+	
+}
+#greenCarWinner{
+	display:none;
+	position:absolute;
+	margin-left: 35%;
+	margin-right: 35%;
+	z-index: 2;
+}
+#blueCarWinner{
+	display:none;
+	position:absolute;
+	margin-left: 35%;
+	margin-right: 35%;
+	z-index: 2;
+}
+
+#greenCar{
+	top:30px;
+}
