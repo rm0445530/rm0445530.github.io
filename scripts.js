@@ -5,7 +5,7 @@
 var isFinished = false;
 /*Changes the stoplight and starts the cars*/
 function startRace() {
-	document.getElementById('light').src = 'greenLight.png';
+	document.getElementById('light').src = 'GreenLight.png';
 	
 	moveCar('greenCar');
 	moveCar('blueCar');
